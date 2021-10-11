@@ -1,5 +1,16 @@
+# macOS
+.DS_Store
+
+# Ruby Gem
+*.gem
+.bundle
+Gemfile.lock
+**/vendor/bundle
+
+# Jekyll genereated files
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+_asset_bundler_cache
 vendor
