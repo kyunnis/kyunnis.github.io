@@ -33,11 +33,9 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "kyunnis"
 email                    : "kghgy4022@gmail.com"
 description              : "Good vibes only :^)"
-url                      : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl                  : "" # the subpath of your site, e.g. /blog
 twitter_username         : "kyunni22"
 github_username          : "kyunnis"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://kyunnis.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
