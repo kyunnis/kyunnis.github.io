@@ -121,14 +121,6 @@ exclude:
   - vendor/ruby/
 
 
-# HTML Compression
-# - https://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: production
-
-
 # Defaults
 defaults:
   # _posts
