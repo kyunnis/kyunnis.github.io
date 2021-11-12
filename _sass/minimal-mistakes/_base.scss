@@ -126,6 +126,8 @@
   /* links */
   
   a {
+    text-decoration: none;  /* kyunnis : Remove a hyper-link underline */
+
     &:focus {
       @extend %tab-focus;
     }
