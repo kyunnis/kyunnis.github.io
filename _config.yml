@@ -128,7 +128,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false        # kyunnis comments : archive page, single page 내 표기 방식 변경 - read_time → show_date
+      show_date: true         # kyunnis comments : archive page, single page 내 표기 방식 변경 - read_time → show_date
       comments: true
       share: true
       related: true
