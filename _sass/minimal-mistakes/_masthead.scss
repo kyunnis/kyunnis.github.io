@@ -3,7 +3,8 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  position: fixed;                            /* kyunnis : set position property to 'fixed' (header(navi) 고정을 위함) */
+  top: 0;                                     /* kyunnis : set position property to 'fixed' (header(navi) 고정을 위함) */
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -11,11 +12,17 @@
   animation-delay: 0.15s;
   z-index: 20;
 
+  width: 100%;                                /* kyunnis : set header's width */
+  background: $background-color;              /* kyunnis : set a color to hide content that may appear below masthead */
+  height: 85px;                               /* kyunnis : need a magic number here which may break in different viewports */
+
   &__inner-wrap {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
+    
     padding: 1em;
+
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;

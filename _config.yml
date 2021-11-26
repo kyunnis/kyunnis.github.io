@@ -92,6 +92,16 @@ yandex_site_verification :
 baidu_site_verification  :
 
 
+# kyunnis : Profile 정보 추가
+# Site Author
+author:
+  name                   : "Product Manager"
+  avatar                 : "/assets/images/bio-photo-keyboard.jpg"
+  bio                    : "회사에선 기획하고 집에선 코딩을 합니다"
+  location               : "South Korea"
+  email                  : "kghgy4022@gmail.com"
+
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-feed
@@ -127,9 +137,9 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: false        # kyunnis comments : archive page, single page 내 표기 방식 변경 - read_time → show_date
-      show_date: true         # kyunnis comments : archive page, single page 내 표기 방식 변경 - read_time → show_date
+      author_profile: false   # kyunnis : 본문 내용에는 Profile 노출 false 처리 
+      read_time: false        # kyunnis : archive page, single page 내 표기 방식 변경 - read_time → show_date
+      show_date: true         # kyunnis : archive page, single page 내 표기 방식 변경 - read_time → show_date
       comments: true
       share: true
       related: true
