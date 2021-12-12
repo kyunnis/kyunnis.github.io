@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "stickyfilljs": "^2.1.0"
+  },
+  "devDependencies": {
+    "lunr": "^2.3.9"
   }
 }
